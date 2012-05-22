@@ -1,0 +1,119 @@
+/* For modern browsers */
+.clearfix:before,
+.clearfix:after {
+    content:"";
+    display:table;
+}
+.clearfix:after {
+    clear:both;
+}
+/* For IE 6/7 (trigger hasLayout) */
+.clearfix {
+    zoom:1;
+}
+
+
+/* master styles
+--------------------------------------------- */
+html {
+	background: url(/assets/bg.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+  height: 100%;
+}
+
+
+body {
+  font-family: "ProximaNova-Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 20px;
+  color: #161616;
+  text-shadow: 0 1px #000;
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+#floater {
+  height: 50%;
+  margin-bottom: -150px;
+  position: relative;
+}
+
+#content {
+  clear: both;
+  height: 300px;
+  position: relative;
+  margin-left: 54%;
+  width: 410px;
+}
+
+h1 {
+  font-family:'Franchise-Bold';
+  font-size: 56px;
+  color: #fff;
+}
+
+#description {
+  color: #b1b2b3;
+  font-size: 30px;
+  line-height: 1.4;
+  margin: 10px 0 25px 0;
+}
+
+#download {
+  display: block;
+  width: 280px;
+  height: 69px;
+  background: url(/assets/download.png);
+  background-position: top;
+  text-shadow: 0 1px #bacc75;
+  font-family: ProximaNova-Bold;
+}
+
+#download:hover {
+  background-position: center;
+}
+
+#download:active {
+  background-position: bottom;
+}
+
+#download span{
+  font-size: 28px;
+  color: #455707;
+  display: block;
+  width: 186px;
+  background: url(/assets/download_icon.png) no-repeat;
+  background-position: left 20px;
+  padding: 18px 0 0 40px;
+  margin: 0 auto;
+}
+
+#download:active span {
+  padding: 20px 0 0 40px;
+  background-position: left 22px;
+}
+
+#meta {
+  font-size: 18px;
+  color: #8b95a0;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+#meta a {
+  color: #fff;
+  border-bottom: 1px solid #73797f;
+}
+
+#meta a:hover {
+  color: #dadada;
+  border-bottom: 1px solid #73797f;
+}

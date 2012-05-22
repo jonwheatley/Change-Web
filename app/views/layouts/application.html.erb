@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>Change - Track your stock investments</title>
+<link href="/assets/reset.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/assets/style.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/assets/fonts.css" media="screen" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<%= yield %>
+
+<script type="text/javascript">
+  var _gauges = _gauges || [];
+  (function() {
+    var t   = document.createElement('script');
+    t.type  = 'text/javascript';
+    t.async = true;
+    t.id    = 'gauges-tracker';
+    t.setAttribute('data-site-id', '4fbbec7ef5a1f53ca2000080');
+    t.src = '//secure.gaug.es/track.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(t, s);
+  })();
+</script>
+
+</body>
+</html>
