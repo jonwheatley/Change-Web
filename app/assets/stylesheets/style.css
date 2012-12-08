@@ -16,7 +16,7 @@
 /* master styles
 --------------------------------------------- */
 html {
-	background: url(/assets/bg.jpg) no-repeat center center fixed;
+	background: url(/assets/background.png) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -58,11 +58,11 @@ a {
 h1 {
   font-family:'Franchise-Bold';
   font-size: 56px;
-  color: #fff;
+  color: #e1f68d;
 }
 
 #description {
-  color: #b1b2b3;
+  color: #ffffff;
   font-size: 30px;
   line-height: 1.4;
   margin: 10px 0 25px 0;
@@ -104,7 +104,7 @@ h1 {
 
 #meta {
   font-size: 18px;
-  color: #8b95a0;
+  color: #ffffff;
   margin-top: 20px;
   font-weight: 600;
 }
